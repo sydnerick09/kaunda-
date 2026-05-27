@@ -8,7 +8,7 @@ import ApplicationModal from '../components/ApplicationModal';
 const FEATURES = [
   {
     icon: '🤖',
-    title: 'AI-Powered Responses',
+    title: 'Human and AI-Powered Responses',
     desc: 'Leverage cutting-edge language models to craft personalised, context-aware email replies at scale — no templates, no delays.',
   },
   {
@@ -24,7 +24,7 @@ const FEATURES = [
   {
     icon: '💰',
     title: 'Competitive Earnings',
-    desc: 'Earn up to KSh 85,000/month handling email queues for businesses across Kenya, Nigeria, Ghana and beyond.',
+    desc: 'Earn up to USD 150 /month handling email queues for businesses across Kenya, Nigeria, Ghana and beyond.',
   },
   {
     icon: '📈',
@@ -46,8 +46,8 @@ const HOW_IT_WORKS = [
 ];
 
 const STATS = [
-  { value: '2,400+', label: 'Active Agents' },
-  { value: 'KSh 85K', label: 'Top Monthly Earnings' },
+  { value: '300+', label: 'Active Agents' },
+  { value: 'USD 150', label: 'Top Monthly Earnings' },
   { value: '180+', label: 'Business Clients' },
   { value: '98%', label: 'Client Satisfaction' },
 ];
@@ -77,7 +77,7 @@ export default function Home() {
     <>
       <Head>
         <title>ReplyAgentAI — Get Paid to Reply Emails with AI</title>
-        <meta name="description" content="Join Africa's leading AI email reply agent platform. Work remotely, earn up to KSh 85,000/month, and build a career in the AI-powered economy." />
+        <meta name="description" content="Join Africa's leading AI email reply agent platform. Work remotely, earn up to USD 150/month, and build a career in the AI-powered economy." />
         <meta property="og:title" content="ReplyAgentAI — Get Paid to Reply Emails with AI" />
         <meta property="og:description" content="Join Africa's leading AI email reply agent platform. Work remotely and earn competitive pay." />
         <meta name="robots" content="index, follow" />
@@ -115,14 +115,14 @@ export default function Home() {
           <div style={{ maxWidth: 720 }}>
             <div className="badge badge-white fade-up" style={{ marginBottom: 28 }}>
               <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#52B788', display: 'inline-block' }} />
-              Now Hiring — 150 Agent Spots Available
+              Now Hiring — 33 Agent Spots Available
             </div>
             <h1 className="display fade-up delay-1" style={{ color: '#FFFFFF', marginBottom: 24 }}>
               Get Paid to Reply<br />
               <span style={{ color: '#52B788' }}>Emails with AI</span>
             </h1>
             <p className="lead fade-up delay-2" style={{ color: 'rgba(255,255,255,0.72)', marginBottom: 40, maxWidth: 580 }}>
-              Join over 2,400 remote agents across Africa who earn competitive monthly income by managing business email queues — powered by our cutting-edge AI platform.
+              Join over 400 remote agents across Africa who earn competitive monthly income by managing business email queues — powered by our cutting-edge AI platform.
             </p>
             <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }} className="fade-up delay-3">
               <button onClick={() => setModalOpen(true)} className="btn btn-white btn-lg">
@@ -333,7 +333,7 @@ export default function Home() {
                 Earnings Breakdown
               </div>
               <div style={{ fontFamily: 'Playfair Display, serif', fontSize: '2.2rem', fontWeight: 900, color: '#52B788', marginBottom: 28 }}>
-                Up to KSh 85,000/mo
+                Up to USD 150/mo
               </div>
               {[
                 { tier: 'Junior Agent', range: 'KSh 15,000 – 28,000', emails: '100–200 emails/day' },
