@@ -115,7 +115,7 @@ export default function Home() {
           <div style={{ maxWidth: 720 }}>
             <div className="badge badge-white fade-up" style={{ marginBottom: 28 }}>
               <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#52B788', display: 'inline-block' }} />
-              Now Hiring — 33 Agent Spots Available
+              Now Hiring — 28 Agent Spots Available
             </div>
             <h1 className="display fade-up delay-1" style={{ color: '#FFFFFF', marginBottom: 24 }}>
               Get Paid to Reply<br />
