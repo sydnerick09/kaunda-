@@ -24,7 +24,7 @@ const FEATURES = [
   {
     icon: '💰',
     title: 'Competitive Earnings',
-    desc: 'Earn up to USD 150 /month handling email queues for businesses across Kenya, Nigeria, Ghana and beyond.',
+    desc: 'Earn up to Ksh 55,000 /month handling email queues for businesses across Kenya, Nigeria, Ghana and beyond.',
   },
   {
     icon: '📈',
@@ -47,7 +47,7 @@ const HOW_IT_WORKS = [
 
 const STATS = [
   { value: '300+', label: 'Active Agents' },
-  { value: 'USD 150', label: 'Top Monthly Earnings' },
+  { value: 'kSH 55,000', label: 'Top Monthly Earnings' },
   { value: '180+', label: 'Business Clients' },
   { value: '98%', label: 'Client Satisfaction' },
 ];
@@ -77,7 +77,7 @@ export default function Home() {
     <>
       <Head>
         <title>ReplyAgentAI — Get Paid to Reply Emails with AI</title>
-        <meta name="description" content="Join Africa's leading AI email reply agent platform. Work remotely, earn up to USD 150/month, and build a career in the AI-powered economy." />
+        <meta name="description" content="Join Africa's leading AI email reply agent platform. Work remotely, earn up to Ksh 55,000/month, and build a career in the AI-powered economy." />
         <meta property="og:title" content="ReplyAgentAI — Get Paid to Reply Emails with AI" />
         <meta property="og:description" content="Join Africa's leading AI email reply agent platform. Work remotely and earn competitive pay." />
         <meta name="robots" content="index, follow" />
@@ -333,7 +333,7 @@ export default function Home() {
                 Earnings Breakdown
               </div>
               <div style={{ fontFamily: 'Playfair Display, serif', fontSize: '2.2rem', fontWeight: 900, color: '#52B788', marginBottom: 28 }}>
-                Up to USD 150/mo
+                Up to Ksh 55,000/mo
               </div>
               {[
                 { tier: 'Junior Agent', range: 'KSh 15,000 – 28,000', emails: '100–200 emails/day' },
